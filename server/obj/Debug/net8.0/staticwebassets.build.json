@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "Msj1GGVGID5rXoZaj7mjcmskldbr9uoRoMjfsTcpitQ=",
+  "Hash": "snOJnvixdSLgWZqJqSGyIcnXctRIJx2HBPQwFMLR3Ck=",
   "Source": "Server",
   "BasePath": "_content/Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Server\\wwwroot",
+      "Source": "Server",
+      "ContentRoot": "C:\\Users\\alish\\OneDrive - London Metropolitan University\\year 3 Coursework\\application development\\Group Ad\\library_manage_app[1]\\library_manage_app\\server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\alish\\OneDrive - London Metropolitan University\\year 3 Coursework\\application development\\Group Ad\\library_manage_app[1]\\library_manage_app\\server\\wwwroot\\images\\book.jpeg",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alish\\OneDrive - London Metropolitan University\\year 3 Coursework\\application development\\Group Ad\\library_manage_app[1]\\library_manage_app\\server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "images/book#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ycqe7kgusx",
+      "Integrity": "DswQIKUCvpf8tgXo4KDH0OZAQW55bKhf3TgdrUKht2Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\book.jpeg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "images/book.jpeg",
+      "AssetFile": "C:\\Users\\alish\\OneDrive - London Metropolitan University\\year 3 Coursework\\application development\\Group Ad\\library_manage_app[1]\\library_manage_app\\server\\wwwroot\\images\\book.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DswQIKUCvpf8tgXo4KDH0OZAQW55bKhf3TgdrUKht2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 15:39:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DswQIKUCvpf8tgXo4KDH0OZAQW55bKhf3TgdrUKht2Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/book.ycqe7kgusx.jpeg",
+      "AssetFile": "C:\\Users\\alish\\OneDrive - London Metropolitan University\\year 3 Coursework\\application development\\Group Ad\\library_manage_app[1]\\library_manage_app\\server\\wwwroot\\images\\book.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12314"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DswQIKUCvpf8tgXo4KDH0OZAQW55bKhf3TgdrUKht2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 05 May 2025 15:39:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ycqe7kgusx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/book.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DswQIKUCvpf8tgXo4KDH0OZAQW55bKhf3TgdrUKht2Q="
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\alish\\OneDrive - London Metropolitan University\\year 3 Coursework\\application development\\Group Ad\\library_manage_app[1]\\library_manage_app\\server\\wwwroot\\images\\book.jpeg",
+      "PackagePath": "staticwebassets\\images\\book.jpeg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Server.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Server.props",
+      "PackagePath": "build\\Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Server.props",
+      "PackagePath": "buildMultiTargeting\\Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Server.props",
+      "PackagePath": "buildTransitive\\Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

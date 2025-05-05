@@ -10,32 +10,40 @@ namespace server.Model
     public class Book
     {
         [Key]
-        public Guid Id { get; set; }
+    public Guid Id { get; set; }
 
-        [Required]
-        public string Title { get; set; }
+    [Required]
+    [MaxLength(255)]
+    public string Title { get; set; }
 
-        public string Author { get; set; }
+    [Required]
+    [MaxLength(255)]
+    public string Author { get; set; }
 
-        public string ISBN { get; set; }
+    [Required]
+    [MaxLength(13)]
+    public string ISBN { get; set; }
 
-        public string Description { get; set; }
+    [Required]
+    [MaxLength(100)]
+    public string Genre { get; set; }
 
-        public decimal Price { get; set; }
+    public string Description { get; set; }
 
-        public int InventoryCount { get; set; }
+    [MaxLength(512)]
+    public string? ImageUrl { get; set; }
 
-        public bool IsOnSale { get; set; }
+    [Range(0, double.MaxValue)]
+    public decimal Price { get; set; }
 
-        public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    [Range(0, int.MaxValue)]
+    public int InventoryCount { get; set; }
 
-        public DateTime UpdatedAt { get; set; } = DateTime.UtcNow;
+    public bool IsOnSale { get; set; }
 
-        // Foreign key
-        [ForeignKey("Category")]
-        public int CategoryId { get; set; }
+    public DateTime CreatedAt { get; set; }
 
-        // Navigation property
-        public Category Category { get; set; }
+    public DateTime UpdatedAt { get; set; }
+
     }
 }

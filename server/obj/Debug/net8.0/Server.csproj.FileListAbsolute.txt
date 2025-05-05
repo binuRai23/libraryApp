@@ -242,3 +242,5 @@ C:\Users\alish\OneDrive - London Metropolitan University\year 3 Coursework\appli
 C:\Users\alish\OneDrive - London Metropolitan University\year 3 Coursework\application development\Group Ad\library_manage_app[1]\library_manage_app\server\obj\Debug\net8.0\Server.pdb
 C:\Users\alish\OneDrive - London Metropolitan University\year 3 Coursework\application development\Group Ad\library_manage_app[1]\library_manage_app\server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\alish\OneDrive - London Metropolitan University\year 3 Coursework\application development\Group Ad\library_manage_app[1]\library_manage_app\server\obj\Debug\net8.0\ref\Server.dll
+C:\Users\alish\OneDrive - London Metropolitan University\year 3 Coursework\application development\Group Ad\library_manage_app[1]\library_manage_app\server\obj\Debug\net8.0\Server.sourcelink.json
+C:\Users\alish\OneDrive - London Metropolitan University\year 3 Coursework\application development\Group Ad\library_manage_app[1]\library_manage_app\server\bin\Debug\net8.0\Server.staticwebassets.runtime.json
